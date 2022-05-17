@@ -50,7 +50,7 @@ public class Login extends HttpServlet {
 	      // index画面にフォワード
 		    RequestDispatcher dispatcher =
 		        request.getRequestDispatcher
-		            ("/WEB-INF/jsp/index.jsp");
+		            ("/WEB-INF/toProfile.jsp");
 		    dispatcher.forward(request, response);	
 		    
 		    
