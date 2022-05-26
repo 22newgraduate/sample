@@ -37,7 +37,7 @@
         </ul>
     </nav>
     <!--以下検索機能 action 処理するURL or ソースコード-->
-    <form action="" method="post">
+    <form action="/sample/Search" method="post">
         <input type="radio" name="ex_number" value="java_ex1_1">演習1-1 <!--valueは用途に応じて書き換え--> 
         <input type="radio" name="ex_number" value="java_ex1_2">演習1-2
         <input type="radio" name="ex_number" value="java_ex1_3">演習1-3

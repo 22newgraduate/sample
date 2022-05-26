@@ -29,7 +29,7 @@ public class Search extends HttpServlet {
 //	    
 	    
 	    //get
-	    String[] check = request.getParameterValues("os");
+	    String[] check = request.getParameterValues("ex_number");
 	    
 	    
 	    request.getRequestDispatcher("/searchResult.jsp").forward(request, response);
