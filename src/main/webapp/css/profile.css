@@ -1,0 +1,15 @@
+h1 {
+	text-align:center;
+}
+
+.info {
+	background-color: #87cefa;
+	width: 50%;
+	padding: 5px;
+	margin: 10px auto;
+}
+
+body {
+	width:100%;
+	padding: auto;
+}
