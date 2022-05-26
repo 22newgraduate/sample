@@ -7,16 +7,17 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="/sample/Login" name="login_form" method="post">
+<form action="/sample/searchResult.jsp" name="login_form" method="GET">
   <div>
-    <input type="checkbox" id="subscribeNews1" name="subscribe" value="newsletter1">
-    <input type="checkbox" id="subscribeNews2" name="subscribe2" value="newsletter2">
-    <input type="checkbox" id="subscribeNews3" name="subscribe3" value="newsletter3">
-    <input type="checkbox" id="subscribeNews4" name="subscribe4" value="newsletter4">
-    <label for="subscribeNews">Subscribe to newsletter?</label>
+    <input type="checkbox" name="os" value="ensyu1">演習１
+		<input type="checkbox" name="os" value="ensyu2">演習２
+		<input type="checkbox" name="os" value="ensyu3">演習３
+		<input type="checkbox" name="os" value="ensyu4">演習４
+		<input type="checkbox" name="os" value="ensyu5">演習５
+    
   </div>
   <div>
-    <button type="submit">Subscribe</button>
+    <button type="submit">検索</button>
   </div>
 </form>
 
